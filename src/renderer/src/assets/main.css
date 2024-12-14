@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.A4 {
+  @apply w-full  ;
+  width: 21cm;
+  height: 27.8cm;
+}
+
+:focus{
+  outline: 2px solid purple;
+}
